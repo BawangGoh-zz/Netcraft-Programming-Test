@@ -13,7 +13,7 @@ This program should stop after it has discovered 100 unique URLs and print one U
 ## Table of Contents
 - [Installation](#installation)
 - [Scrapy Intro](#scrapy-intro)
-- [setting.py](#setting-py)
+- [setting.py](#setting-.py)
 - [Web Crawl](#web-crawl)
 - [URLs Output](#urls-output)
 ---
