@@ -54,7 +54,7 @@ The project directories will be created as follow:
 | __init__.py | Python module initialisation file |
 | items.py    | project items file using feed export to generate JSON file |
 | settings.py | project settings file |
-| spider/     | Directory where web spider located |
+| spiders/     | Directory where web spider located |
 | __init__.py | web spider initialsation file |
 
 However, there are only two important files need to be modified:
@@ -65,9 +65,9 @@ However, there are only two important files need to be modified:
     * Export the extracted URLs in CSV, Excel and JSON etc format.
 2. spiders/ - This folder is where the custom spiders stored.
     * Create new spider bot with basic template by calling the command below <br>
-    `./spider/> scrapy genspider spiderbot "Given URLs"`
+    `./myproject/> scrapy genspider spiderbot "Given URLs"`
     * Initilise the spider by calling the command below <br>
-    `./spider/> scrapy crawl spiderbot`    
+    `./myproject/> scrapy crawl spiderbot`    
 ---
 ## settings.py
 In order to prevent being blocked by the webpages, there are conditions should be fulfilled to scrape politely.
