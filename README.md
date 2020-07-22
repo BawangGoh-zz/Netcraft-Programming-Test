@@ -12,12 +12,8 @@ This program should stop after it has discovered 100 unique URLs and print one U
 
 ## Table of Contents
 - [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Scrapy Intro](#intro)
+- [Web Crawl](#Explaination)
 ---
 ## Installation
 This program required `Python version 3.7` and open-source web-crawling framework `Scrapy 2.2.0`
