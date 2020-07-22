@@ -12,7 +12,7 @@ This program should stop after it has discovered 100 unique URLs and print one U
 
 ## Table of Contents
 - [Installation](#installation)
-- [Scrapy Intro](#scrapyintro)
+- [Scrapy Intro](#Scrapy-Intro)
 - [Web Crawl](#webcrawl)
 ---
 ## Installation
