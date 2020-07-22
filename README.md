@@ -10,6 +10,14 @@ Implement a very simple web crawler with the following task.
 <u>**Goal:** </u> <br>
 This program should stop after it has discovered 100 unique URLs and print one URL per line as its output.
 
+## Table of Contents
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
 ---
 ## Installation
 This program required `Python version 3.7` and open-source web-crawling framework `Scrapy 2.2.0`
@@ -63,3 +71,5 @@ However, there are only two important files need to be modified:
     * Initilise the spider by calling the command below <br>
     `./spider/:~$ scrapy crawl spiderbot`    
 ---
+## Web Crawl
+The settings default:
