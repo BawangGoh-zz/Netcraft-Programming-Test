@@ -50,7 +50,7 @@ The project directories will be created as follow:
 | file/folder | functionality |
 |-------------|:--------------|
 | scrapy.cfg  | deploy configuration file |
-| lego_brick/ | Python project module where all the code are executed |
+| project_dir/ | Python project module where all the code are executed |
 | __init__.py | Python module initialisation file |
 | items.py    | project items file using feed export to generate JSON file |
 | settings.py | project settings file |
