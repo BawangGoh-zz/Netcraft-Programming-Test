@@ -13,7 +13,7 @@ This program should stop after it has discovered 100 unique URLs and print one U
 ## Table of Contents
 - [Installation](#installation)
 - [Scrapy Intro](#scrapy-intro)
-- [setting.py](#setting-.py)
+- [Settings](#settings)
 - [Web Crawl](#web-crawl)
 - [URLs Output](#urls-output)
 ---
@@ -69,7 +69,7 @@ However, there are only two important files need to be modified:
     * Initilise the spider by calling the command below <br>
     `./myproject/> scrapy crawl spiderbot`    
 ---
-## settings.py
+## Settings
 In order to prevent being blocked by the webpages, there are conditions should be fulfilled to scrape politely.
 - Do not fetch pages too quickly (add some download delay)
 - Do send multiple requests at the same time (configure concurrent request)
