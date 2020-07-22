@@ -85,8 +85,10 @@ DOWNLOAD_DELAY = 3
 ```
 ---
 ## Web Crawl
-![Crawl_page](/crawl_page.jpg)
-We can start scraping the URLs by running the command: `./spider/> scrapy crawl web_crawler`. By default, Scrapy use a LIFO queue for storing pending request, which means that it crawls in depth-first order (**DFO**). Here is an example: <br>
+<p align="center">
+  <img src="/crawl_page.jpg">
+</p>
+We can start scraping the URLs by running the command: `./myproject/> scrapy crawl web_crawler`. By default, Scrapy use a LIFO queue for storing pending request, which means that it crawls in depth-first order (**DFO**). Here is an example: <br>
 
 1. Let suppose we have a base URL a1 <br>
 a1 has three links: b1, b2, b3 <br>
